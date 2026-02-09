@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvia Vazquez Paramio - Academic Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background: white;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 1rem;
+        }
+        
+        nav a:hover {
+            color: #3498db;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        h3 {
+            color: #34495e;
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+        
+        .course-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        
+        .course-card h4 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .skill-tag {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            margin: 0.3rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .timeline-item {
+            margin: 1.5rem 0;
+            padding-left: 1.5rem;
+            border-left: 2px solid #3498db;
+        }
+        
+        .timeline-item strong {
+            color: #2c3e50;
+        }
+        
+        ul {
+            margin-left: 2rem;
+            margin-top: 0.5rem;
+        }
+        
+        li {
+            margin: 0.5rem 0;
+        }
+        
+        .contact-info {
+            background: #ecf0f1;
+            padding: 1.5rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #2c3e50;
+            color: white;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Silvia Vazquez Paramio</h1>
+        <p>Professor of Spanish | Latin American Literature & Culture Specialist</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#professional-dev">Professional Development</a></li>
+            <li><a href="#dei">DEI Commitment</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a Professor of Spanish at Saddleback College with over 12 years of experience in higher education. My teaching and research focus on Latin American literature, history, and culture, with particular expertise in colonial period texts and cultural preservation themes.</p>
+            <p style="margin-top: 1rem;">My pedagogical approach emphasizes student-centered learning, innovative educational technology integration, and culturally authentic engagement with Spanish language and literature. I am committed to moving beyond traditional grammar-focused instruction toward critical thinking-based approaches that honor the complexity of historical narratives and cultural experiences.</p>
+        </section>
+        
+        <section id="resume">
+            <h2>Resume</h2>
+            
+            <h3>Education</h3>
+            <div class="timeline-item">
+                <strong>PhD in Spanish</strong><br>
+                Specialization: Latin American Literature, History & Culture
+            </div>
+            <div class="timeline-item">
+                <strong>Master's Degree in Spanish</strong><br>
+                Focus: Latin American Studies
+            </div>
+            
+            <h3>Academic Experience</h3>
+            <div class="timeline-item">
+                <strong>Professor of Spanish</strong> | Saddleback College<br>
+                <em>12+ years</em>
+                <ul>
+                    <li>Primary instructor for Spanish 21A (Latin American Literature, History & Culture Pre-1900)</li>
+                    <li>Developed comprehensive curriculum using Open Educational Resources (OER)</li>
+                    <li>Integrated innovative educational technologies including 3D immersive learning environments</li>
+                    <li>Created AI-enhanced learning tools and chatbots for contextual vocabulary support</li>
+                </ul>
+            </div>
+            
+            <h3>Areas of Expertise</h3>
+            <div>
+                <span class="skill-tag">Colonial Latin American Literature</span>
+                <span class="skill-tag">Educational Technology</span>
+                <span class="skill-tag">Canvas LMS</span>
+                <span class="skill-tag">AI in Education</span>
+                <span class="skill-tag">OER Development</span>
+                <span class="skill-tag">3D Learning Environments</span>
+                <span class="skill-tag">Second Language Acquisition</span>
+                <span class="skill-tag">Student-Centered Pedagogy</span>
+            </div>
+        </section>
+        
+        <section id="courses">
+            <h2>Courses</h2>
+            
+            <div class="course-card">
+                <h4>Spanish 21A: Latin American Literature, History & Culture (Pre-1900)</h4>
+                <p><strong>Focus:</strong> Colonial period authors and cultural narratives</p>
+                <p><strong>Key Authors:</strong> Inca Garcilaso de la Vega, Sor Juana Inés de la Cruz, José Joaquín Fernández de Lizardi</p>
+                <p><strong>Pedagogical Framework:</strong> Ángel Rama's "ciudad letrada" framework for understanding colonial power through literacy control</p>
+                <p><strong>Approach:</strong> Critical examination of indigenous perspectives, resistance strategies, and the complexity of conquest narratives through primary texts with contextual support for language learners</p>
+            </div>
+            
+            <div class="course-card">
+                <h4>Spanish 2</h4>
+                <p><strong>Innovation:</strong> OER-based curriculum emphasizing cultural authenticity over traditional grammar drills</p>
+                <p><strong>Methods:</strong> Historical photographs, creative storytelling, interactive vocabulary tools</p>
+                <p><strong>Technology Integration:</strong> PlayLab chatbots, Canvas interactive elements, 3D virtual learning spaces</p>
+            </div>
+            
+            <h3>Teaching Philosophy</h3>
+            <p>My courses emphasize "spiraling mastery" where concepts reappear in increasingly complex contexts, promoting deep understanding rather than superficial memorization. I balance academic rigor with accessibility, creating materials that challenge students while providing appropriate scaffolding for diverse learning needs.</p>
+        </section>
+        
+        <section id="research">
+            <h2>Research & Scholarly Interests</h2>
+            
+            <h3>Primary Research Areas</h3>
+            <ul>
+                <li><strong>Colonial Latin American Literature:</strong> Power structures, literacy, and cultural resistance in colonial texts</li>
+                <li><strong>Indigenous Perspectives:</strong> Pre-Columbian texts including the Popol Vuh and Aztec literature in Nahuatl</li>
+                <li><strong>Cultural Preservation:</strong> Themes of cultural memory and identity in Latin American literature</li>
+                <li><strong>Educational Technology:</strong> AI integration in language learning, student-centered pedagogical innovations</li>
+            </ul>
+            
+            <h3>Current Projects</h3>
+            <ul>
+                <li>Development of comprehensive OER materials for Spanish language and culture courses</li>
+                <li>Creation of 3D immersive learning environments for language acquisition</li>
+                <li>Research on AI use policies and academic integrity in higher education</li>
+                <li>Integration of culturally responsive teaching methods in language instruction</li>
+            </ul>
+        </section>
+        
+        <section id="professional-dev">
+            <h2>Professional Development</h2>
+            
+            <h3>Educational Technology Leadership</h3>
+            <ul>
+                <li>Developed tutor training presentations on AI and academic integrity</li>
+                <li>Created interactive Canvas LMS components including accordion-style syllabi</li>
+                <li>Pioneered use of 3D virtual environments ("Spanish Lounge") in language instruction</li>
+                <li>Designed AI-enhanced chatbots for contextual vocabulary support using PlayLab</li>
+                <li>Migrated course materials from Classic to New Quizzes in Canvas</li>
+            </ul>
+            
+            <h3>Curriculum Innovation</h3>
+            <ul>
+                <li>Comprehensive lesson packages integrating primary texts with glossaries and critical thinking activities</li>
+                <li>Interactive vocabulary flashcards and digital learning tools</li>
+                <li>Research-backed pedagogical approaches drawing from Wharton studies on AI in education</li>
+                <li>Student-centered assessment strategies emphasizing "guardrails not gatekeepers"</li>
+            </ul>
+            
+            <h3>Ongoing Professional Learning</h3>
+            <ul>
+                <li>Second language acquisition theory and application</li>
+                <li>Artificial intelligence in educational contexts</li>
+                <li>GitHub Pages and web development for educational materials</li>
+                <li>Open Educational Resources (OER) development and implementation</li>
+            </ul>
+        </section>
+        
+        <section id="dei">
+            <h2>Diversity, Equity & Inclusion Commitment</h2>
+            
+            <p>My commitment to DEI principles is fundamental to my teaching philosophy and practice. This commitment manifests in multiple dimensions of my work:</p>
+            
+            <h3>Curricular Representation</h3>
+            <ul>
+                <li>Centering indigenous and marginalized voices in Latin American literature courses</li>
+                <li>Examining colonial power structures and resistance strategies through diverse perspectives</li>
+                <li>Including texts like <em>Visión de los vencidos</em> that present indigenous perspectives on conquest</li>
+                <li>Challenging simplified historical narratives in favor of complex, nuanced understandings</li>
+            </ul>
+            
+            <h3>Accessible Pedagogy</h3>
+            <ul>
+                <li>Developing OER materials to reduce financial barriers for students</li>
+                <li>Creating scaffolded learning experiences that support diverse language proficiency levels</li>
+                <li>Implementing student-centered approaches that honor varied learning styles and backgrounds</li>
+                <li>Using technology to create multiple pathways to learning and demonstration of knowledge</li>
+            </ul>
+            
+            <h3>Critical Consciousness</h3>
+            <ul>
+                <li>Encouraging students to analyze how literacy and education have been used as tools of power</li>
+                <li>Fostering critical thinking about cultural narratives and historical interpretation</li>
+                <li>Creating classroom environments where students question assumptions and explore complexity</li>
+                <li>Emphasizing cultural authenticity and respect in language instruction</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p><strong>Silvia Vazquez Paramio</strong></p>
+                <p>Professor of Spanish</p>
+                <p>Saddleback College</p>
+                <p style="margin-top: 1rem;"><em>Email and office information available upon request</em></p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Silvia Vazquez Paramio | Academic Portfolio</p>
+    </footer>
+    
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+    </script>
+</body>
+</html>
